@@ -5,6 +5,7 @@
 
 body {
     background-color: #f3f5f7;
+    height: 3000px;
 }
 
 li {
@@ -172,31 +173,31 @@ a {
     font-weight: 700;
 }
 
-.recommend {
+.recommend-bar {
     height: 60px;
     margin-top: 8px;
     background-color: #fff;
     line-height: 60px;
 }
 
-.recommend h3 {
+.recommend-bar h3 {
     float: left;
     margin-left: 35px;
     font-size: 16px;
     color: #00a4ff;
 }
 
-.recommend ul {
+.recommend-bar ul {
     float: left;
     margin-left: 35px;
     height: 16px;
 }
 
-.recommend ul li {
+.recommend-bar ul li {
     float: left;
 }
 
-.recommend ul li a {
+.recommend-bar ul li a {
     font-size: 16px;
     padding: 0 35px;
     color: #262626;
@@ -210,3 +211,66 @@ a {
     font-size: 14px;
     color: #00a4ff;
 }
+
+.recommend {
+    margin-top: 35px;
+}
+
+.recommend-hd {
+    height: 40px;
+}
+
+.recommend-hd h3 {
+    float: left;
+    font-size: 20px;
+    color: #494949;
+}
+
+.recommend-hd a {
+    float: right;
+    margin-right: 30px;
+    font-size: 12px;
+    color: #a5a5a5;
+}
+
+.recommend-content ul {
+    width: 1215px;
+}
+
+.recommend-content ul li {
+    float: left;
+    width: 228px;
+    height: 270px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    background-color: #fff;
+}
+
+.recommend-content ul li img {
+    width: 100%;
+}
+
+.recommend-content ul li h4 {
+    margin: 20px 20px 20px 25px;
+    font-size: 14px;
+    font-weight: 400px;
+    color: #050505;
+}
+
+.recommend-content ul li p {
+    margin-left: 25px;
+    font-size: 12px;
+    color: #999999;
+}
+
+.recommend-content ul li p span {
+    color: #ff7c2d;
+}
+
+
+
+
+
+
+
+
