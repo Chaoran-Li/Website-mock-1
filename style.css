@@ -5,7 +5,6 @@
 
 body {
     background-color: #f3f5f7;
-    height: 3000px;
 }
 
 li {
@@ -234,6 +233,7 @@ a {
 }
 
 .recommend-content ul {
+    overflow: hidden;
     width: 1215px;
 }
 
@@ -266,6 +266,62 @@ a {
 .recommend-content ul li p span {
     color: #ff7c2d;
 }
+
+.footer {
+    height: 415px;
+    background-color: #fff;
+}
+
+.footer .main {
+    padding-top: 35px;
+}
+
+.footer .info {
+    float: left;
+}
+
+.footer .info p {
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: 400px;
+    color: #666666;
+}
+
+.footer .info a {
+    display: block;
+    width: 120px;
+    height: 35px;
+    border: 1px solid #00a4ff;
+    margin-top: 15px;
+    text-align: center;
+    line-height: 35px;
+    color: #00a4ff;
+}
+
+.footer .links {
+    float: right;
+}
+
+.footer .links dl {
+    margin-left: 145px;
+    float: left;
+}
+
+.footer .links dl:nth-child(3) {
+    margin-right: 30px;
+}
+
+.footer .links dl dt {
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #333333;
+}
+
+.footer .links dl dd a{
+    font-size: 12px;
+    color: #333333;
+}
+
 
 
 
