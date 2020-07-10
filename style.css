@@ -4,6 +4,7 @@
 }
 
 body {
+    position: relative;
     background-color: #f3f5f7;
 }
 
@@ -21,8 +22,8 @@ a {
 }
 
 .sideBar {
-    position: fixed;
-    top: 500px;
+    position: absolute;
+    top: 650px;
     right: 50%;
     width: 185px;
     height: 425px;
@@ -38,11 +39,13 @@ a {
 .sideBar ul li {
     height: 36px;
     line-height: 36px;
-    font-size: 14px;
-    color: #000000;
+    font-size: 14px;  
 }
 
-.sideBar ul li:hover {
+.sideBar ul li a {
+    color: #000000;
+}
+.sideBar ul li a:hover {
     color: #00a4ff;
 }
 
