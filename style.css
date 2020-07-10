@@ -20,6 +20,32 @@ a {
     margin: auto;
 }
 
+.sideBar {
+    position: fixed;
+    top: 500px;
+    right: 50%;
+    width: 185px;
+    height: 425px;
+    margin-right: 625px;
+    background-color: #fff;
+}
+
+.sideBar ul {
+    margin-top: 5px;
+    margin-left: 25px;
+}
+
+.sideBar ul li {
+    height: 36px;
+    line-height: 36px;
+    font-size: 14px;
+    color: #000000;
+}
+
+.sideBar ul li:hover {
+    color: #00a4ff;
+}
+
 .header {
     height: 42px;
     margin: 30px auto;
